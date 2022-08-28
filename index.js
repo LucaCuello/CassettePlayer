@@ -1,4 +1,5 @@
 const song = new Audio("love.mp3"),
+  play = new Audio("play.mp3"),
   button = document.getElementById("play"),
   buttonPause = document.getElementById("pause"),
   circle1 = document.getElementById("circle1"),
@@ -8,6 +9,7 @@ const song = new Audio("love.mp3"),
 
 button.addEventListener("click", function () {
   song.play();
+  play.play();
   button.style.display = "none";
   buttonPause.style.display = "flex";
   circle1.style.animationPlayState = "running";
@@ -17,6 +19,7 @@ button.addEventListener("click", function () {
 });
 buttonPause.addEventListener("click", function () {
   song.pause();
+  play.play();
   button.style.display = "flex";
   buttonPause.style.display = "none";
   circle1.style.animationPlayState = "paused";
