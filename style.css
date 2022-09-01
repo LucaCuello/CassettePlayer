@@ -20,7 +20,8 @@ html
 p
 {
     font-size: 36px;
-    color:#0f0e17;
+    color:#0f0e1799;
+    user-select: none;
 }
 body
 {
@@ -230,13 +231,13 @@ body
     background-color: #0f0e17;
     border-radius: 50%;
     border: none;
-    transition: all 300ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 .button i 
 {
     font-size: 25px;
     color: #eeebe0;
-    transition: all 300ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 .button:hover 
 {
@@ -247,6 +248,7 @@ body
 {
     display: none;
 }
+/* Animations */
 @keyframes rotate 
 {
     100% 
