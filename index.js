@@ -1,5 +1,5 @@
-const song = new Audio("/casettePlayer/assets/love.mp3"),
-  play = new Audio("/casettePlayer/assets/play.mp3"),
+const song = new Audio("assets/love.mp3"),
+  play = new Audio("assets/play.mp3"),
   button = document.getElementById("play"),
   buttonPause = document.getElementById("pause"),
   circle1 = document.getElementById("circle1"),
