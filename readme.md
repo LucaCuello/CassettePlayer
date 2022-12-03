@@ -1,6 +1,6 @@
 # Cassette Player
 
-A minimalisti mixtape made entirely out of CSS. And a little bit of JS help to make the music work :)
+A minimalist mixtape made entirely out of CSS. And a little bit of JS help to make the music work :)
 
 [Live Preview](https://casette-player.vercel.app/).
 
